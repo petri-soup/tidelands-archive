@@ -250,13 +250,14 @@ footer {
 }
 
 .header-container {
-   text-align: center;
-    max-width: 300px; /* or whatever max width you prefer */
-    width: 50%; 
-    margin: 0 auto;
-    background-color: rgba(3, 15, 26, 0.6);
-    border: 2px dotted #589600;
-    border-radius: 5px;
+  text-align: center;
+  max-width: 1200px;
+  width: fit-content;
+  margin: 4rem auto 1.5rem; /* More space from top, centered, normal space below */
+  padding: 0.5rem 1rem; /* Less vertical padding, reasonable horizontal padding */
+  background-color: rgba(3, 15, 26, 0.7);
+  border: 3px dotted #589600;
+  border-radius: 25px;
 }
 
 
